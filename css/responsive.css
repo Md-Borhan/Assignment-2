@@ -1,0 +1,301 @@
+/* Media Queries For Mobile Device*/
+
+/* Header */
+@media screen and (max-width: 576px) {
+  /* Global CSS */
+  body {
+    font-size: 14px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 35px;
+  }
+  section,
+  .facts-boxes,
+  .footer {
+    padding-top: 50px;
+  }
+  .container {
+    max-width: 95%;
+  }
+  .primary-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  /* Header */
+
+  .nav-items li {
+    margin-right: 15px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+  }
+  .nav-items li a {
+    font-size: 14px;
+  }
+
+  /* Team */
+  .team-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .team-wrapper div:nth-of-type(1) {
+    order: 1;
+    text-align: center;
+  }
+
+  /* Features */
+  .features-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-img img {
+    margin-left: 0;
+  }
+  .experience-box {
+    padding: 15px;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .experience-box p {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .experience-box span {
+    font-size: 15px;
+  }
+
+  /* Facts */
+  section.facts-section {
+    margin-top: 100px;
+  }
+  .facts-title,
+  .features-title {
+    text-align: center;
+  }
+
+  /* Sponsor */
+  .sponsors,
+  .facts-boxes,
+  .team-wrapper,
+  nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Contact */
+  .contact {
+    flex-direction: column-reverse;
+  }
+  .contact-img {
+    display: none;
+  }
+  .contact-info form input,
+  .contact-info form textarea,
+  .contact-info input[type="submit"] {
+    width: 100%;
+  }
+  .contact-info input[type="text"] {
+    margin-right: 0;
+  }
+
+  /* Footer */
+  .footer {
+    padding-bottom: 50px;
+  }
+}
+
+/* Media Queries For Tablet Device*/
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* Global CSS */
+  body {
+    font-size: 14px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 35px;
+  }
+  section,
+  .facts-boxes,
+  .footer {
+    padding-top: 50px;
+  }
+  .container {
+    max-width: 95%;
+  }
+  .primary-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  /* Header */
+
+  .nav-items li {
+    margin-right: 15px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+  }
+  .nav-items li a {
+    font-size: 14px;
+  }
+
+  /* Team */
+  .team-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+
+  .team-wrapper div:nth-of-type(1) {
+    order: 1;
+    text-align: center;
+  }
+
+  /* Features */
+  .features-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-img,
+  .contact div:first-child {
+    margin-top: 25px;
+  }
+  .experience-box {
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 25px;
+  }
+  .experience-box p {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .experience-box span {
+    font-size: 15px;
+  }
+
+  /* Facts */
+  .facts-title {
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .facts-boxes {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  /* Sponsors */
+  .sponsors,
+  .team-wrapper,
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  /* Contact */
+  .contact {
+    flex-direction: column-reverse;
+  }
+  .contact > div:first-child {
+    margin-top: 30px;
+  }
+  /* Footer */
+  .footer {
+    padding-bottom: 50px;
+  }
+}
+
+/* Media Queries For Laptop Device*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Global CSS */
+  .container {
+    max-width: 85%;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 35px;
+  }
+  .primary-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+  /* Header */
+  .banner-content {
+    width: 100%;
+  }
+  .nav-items li {
+    margin-right: 25px;
+}
+
+  /* Team */
+  .team-wrapper {
+    grid-column-gap: 30px;
+  }
+
+  /* Features */
+  .features-wrapper {
+    grid-column-gap: 30px;
+  }
+  .features-desc {
+    padding: 10px 15px 10px 15px;
+  }
+  .experience-box {
+    padding: 25px 20px;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .experience-box p {
+    font-size: 45px;
+  }
+  /* Facts */
+  .facts-boxes {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .facts-section .facts-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Sponsor */
+  .sponsor img {
+    width: 105px;
+  }
+
+  /* Contact */
+  .contact {
+    flex-direction: column-reverse;
+  }
+  .contact > div:first-child {
+    margin-top: 30px;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* Media Queries Desktop Device */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
